@@ -1,0 +1,79 @@
+.currentContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.currentCityName {
+    margin-bottom: 10px;
+}
+
+/**/
+.currentCardContainer {
+    padding: 25px 20px;
+}
+.currentCityWeather {
+    display: flex;
+}
+.currentCityWeather .now {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 50px;
+    align-items: center;
+}
+.currentCityWeather .now p {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin: 0;
+}
+.currentCityWeather .now span {
+    text-align: center;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 1;
+    margin-bottom: 5px;
+    grid-column: 1/3;
+}
+
+.currentCityWeather .other {
+
+}
+.currentCityWeather .other p {
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 600;
+}
+.currentCityWeather .other p:nth-child(odd) {
+    background: #FFD5CC;
+}
+.currentCityWeather .other p:nth-child(even) {
+    background: #fff7f6;
+}
+
+/**/
+.currentListContainer ul {
+    display: flex;
+    margin: 20px 0;
+    padding: 0;
+    border-left: 1px solid #e1e1e1;
+}
+.currentListContainer ul li {
+    list-style: none;
+    padding: 0 25px;
+    border-right: 1px solid #e1e1e1;
+    text-align: center;
+}
+.NextDayName {
+    margin: 0 0 10px;
+    letter-spacing: 0.5px;
+}
+.NextDayMin,
+.NextDayMax {
+    font-size: 15px;
+    font-weight: 600;
+}
+.NextDayMin { color: #8F7A76; }
+.NextDayMax { color: #FF5733; }

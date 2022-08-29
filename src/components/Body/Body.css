@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    justify-content: center;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.col {
+    width: 100%;
+}
+
+@media (max-width: 998px) {
+    .body {
+        flex-wrap: wrap;
+    }
+}
