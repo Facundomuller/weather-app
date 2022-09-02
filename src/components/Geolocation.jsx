@@ -1,6 +1,6 @@
 import { useGeolocated } from "react-geolocated";
 
-const Geolocation = () => {
+export function Geolocation () {
 
     const { coords, isGeolocationAvailable } =
         useGeolocated({
@@ -17,22 +17,4 @@ const Geolocation = () => {
 
     return coords
 
-}
-
-const FormatDate = (date) => {
-
-    let d = new Date(date);
-    let month = (d.getMonth() + 1);
-    let day = d.getDate();
-
-    if (day.length < 2) {
-        day = '0' + day;
-    }
-    return [year, month, day].join('-');
-
-}
-
-export {
-    Geolocation,
-    FormatDate
 }

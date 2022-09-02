@@ -1,0 +1,40 @@
+.citiesContainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.citiesCardContainer {
+    width: 100%;
+    padding: 15px;
+    border-right: 1px solid #e1e1e1;
+    background: #ffcbcb;
+}
+.citiesCardContainer:last-child {
+    border-right: none;
+}
+
+.citiesCityName {
+    font-size: 18px;
+}
+
+.citiesCityWeather {
+    display: flex;
+}
+.citiesCityWeather .now {
+    width: 60%;
+}
+.citiesCityWeather .now img {
+    max-height: 30px;
+}
+.citiesCityWeather .now p {
+    font-weight: 600;
+}
+.citiesCityWeather .now span {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.citiesCityWeather .other p {
+    font-size: 13px;
+    font-weight: 600;
+}

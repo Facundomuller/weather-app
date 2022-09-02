@@ -1,6 +1,4 @@
 .body {
-    display: flex;
-    justify-content: center;
     max-width: 1366px;
     margin: auto;
 }

@@ -1,4 +1,6 @@
 import CurrentWeather from "../CurrentWeather/CurrentWeather";
+import Cities from "../Cities/Cities";
+
 import "./Body.css"
 
 const Body = () => {
@@ -10,7 +12,7 @@ const Body = () => {
                 <CurrentWeather />
             </div>
             <div className="col">
-
+                <Cities />
             </div>
 
         </div>
