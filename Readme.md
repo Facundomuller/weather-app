@@ -7,4 +7,4 @@
 
 ### Pendientes
 
-1. Al seleccionar una de las 5 ciudades se despliegue en el componente principal
+1. Al seleccionar una de las 5 ciudades se muestra en el componente principal
